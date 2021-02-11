@@ -1,9 +1,9 @@
 class KubePrompt < Formula
   desc "An interactive kubernetes client featuring auto-complete using go-prompt."
   homepage "https://github.com/c-bata/kube-prompt"
-  url "https://github.com/c-bata/kube-prompt/releases/download/v1.0.10/kube-prompt_v1.0.10_darwin_amd64.zip"
-  sha256 "6c4e56a39981fa58b69aeb1a4f5ca24b3b0c03d059ac06e89d4b4bdd31d6bfdc"
-  version "1.0.10"
+  url "https://github.com/c-bata/kube-prompt/releases/download/v1.0.11/kube-prompt_v1.0.11_darwin_amd64.zip"
+  sha256 "2e3a2842c93a1755e36c33be683972b08a50f4a372fbe191502b7fd0feb43345"
+  version "1.0.11"
 
   def install
     bin.install "kube-prompt"
